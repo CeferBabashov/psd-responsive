@@ -1,0 +1,86 @@
+
+@media only screen and (max-width:992px){
+    .mobile-menu{
+        display: block;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header nav img{
+        display: block;
+        margin: auto;
+    }
+
+    .features .part{
+        flex-wrap: wrap;
+    }
+
+    .features .part div{
+        width: 100%;
+    }
+
+   
+}
+
+
+@media only screen and (max-width:768px){
+    .features .part{
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .team{
+        flex-direction: column;
+    }
+
+    .team>div{
+        width: 100%;
+    }
+
+    .susan{
+        flex-direction: column;
+    }
+    .susan-job, .susan-photo{
+        width: 100%;
+    }
+
+    .susan-job p{
+        padding-left: 20px;
+    }
+
+    .section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .info div{
+        margin-top: 30px;
+    }
+  
+}
+
+
+
+@media only screen and (max-width:576px){
+
+    .content h1{
+        font-size: 25px;
+    }
+
+        .images .up {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images .up div{
+        width: 100%;
+    }
+}
